@@ -1,0 +1,37 @@
+.monitor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: -100px;
+}
+
+.monitor .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.monitor img {
+  height: 200px;
+  display: block;
+
+  margin-right: 200px;
+}
+
+.monitor .primary {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #6c63ff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.primary:hover {
+  background-color: #7d77f2;
+}

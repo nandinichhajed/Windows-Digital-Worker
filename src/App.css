@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App .home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.App .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App .content img {
+  height: 400px;
+  margin-left: 150px;
+}
+
+.App .home .content h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.App .home .content .buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.primary {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #6c63ff;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 50px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.primary:hover {
+  background-color: #7d77f2;
+}
+
+.secondary {
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: 1px solid #6c63ff;
+  color: #6c63ff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.secondary:hover {
+  background-color: #6c63ff;
+  color: #fff;
+}
