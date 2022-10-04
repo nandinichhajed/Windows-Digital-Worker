@@ -14,10 +14,11 @@ const Home = () => {
             <Link to="/monitor" className="primary">
               Monitor Bot
             </Link>
-            <Link to="/service" className="secondary">
+            <Link to="/service" className="primary">
               Service Bot
             </Link>
           </div>
+          <p className="secondary hey">Send Reports Over Email</p>
         </div>
         <div className="right">
           <img src={Hero} alt="Hero" />
