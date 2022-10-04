@@ -20,7 +20,6 @@
 
 .App .content img {
   height: 400px;
-  margin-left: 150px;
 }
 
 .App .home .content h2 {
@@ -40,9 +39,10 @@
   background-color: #6c63ff;
   color: #fff;
   cursor: pointer;
-  margin-right: 50px;
+  margin-right: 3s0px;
   transition: all 0.3s ease;
   text-decoration: none;
+  text-align: center;
 }
 
 .primary:hover {
@@ -57,9 +57,24 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
+  width: 100%;
+  text-align: center;
 }
 
 .secondary:hover {
   background-color: #6c63ff;
   color: #fff;
+}
+.right {
+  width: 50%;
+}
+
+.left {
+  border: 1px solid #6c63ff;
+  padding: 100px 100px;
+  border-radius: 50px;
+}
+
+.hey {
+  margin-top: 20px;
 }
